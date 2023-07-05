@@ -1,0 +1,75 @@
+.filter_container h3 {
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--secondary);
+  margin-bottom: 15px;
+}
+.heading_desc {
+  font-size: 12px;
+  color: var(--light-black);
+  gap: 3px;
+}
+.heading_desc a {
+  text-decoration: underline;
+  margin-left: 5px;
+  color: var(--secondary);
+}
+.filter_container h4 {
+  font-size: 17px;
+  font-weight: 500;
+  color: var(--secondary);
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+.filter_feild {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.filter_feild label{
+    color: var(--light-black);
+}
+.filter_feild input[type="checkbox"] {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  margin-right: 10px;
+  border-radius: 0px;
+}
+
+.filter_container .search_feild{
+    display: flex;
+    align-items: center;
+    background: var(--primary);
+    gap: 5px;
+    padding-left: 10px;
+    margin-bottom: 1rem;
+    
+}
+.filter_container .search_feild input[type="search"]{
+    padding: 15px;
+    width: 100%;
+}
+.filter_container .filter_details{
+    font-size: 13px;
+    margin-bottom: 1rem;
+}
+.filter_container li{
+    font-size: 15px;
+    margin-top: .5rem;
+    font-weight: 400;
+    color: var(--secondary);
+}
+.filter_container li a{
+    margin-left: .5rem;
+    text-decoration: underline;
+}
+.filter_container .total_filter{
+    margin-top: 2rem;
+}
+.filter_container .total_filter p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: .5rem;
+}

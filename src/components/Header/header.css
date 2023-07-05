@@ -1,0 +1,112 @@
+.navbar_container {
+  width: 100%;
+  background-color: var(--bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+header {
+  width: 1200px;
+  padding: 15px 1%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+.logo img {
+  width: 150px;
+  height: auto;
+}
+header .nav {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+header .nav a {
+  gap: 10px;
+  color: var(--primary);
+  font-weight: 600;
+  font-size: 13px;
+  border-radius: 20px;
+  padding: 10px;
+  transition: 0.5s;
+}
+header .nav a:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.16),
+      rgba(255, 255, 255, 0.16)
+    ),
+    rgb(116, 31, 162);
+}
+header .searchfeild {
+  background-color: var(--primary);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 25px;
+  padding: 0px 10px;
+  width: min-content;
+  overflow: hidden;
+  width: 20%;
+}
+header .searchfeild input {
+  padding: 10px;
+  font-size: 15px;
+  width: 97%;
+}
+.loginLink {
+  color: var(--primary);
+}
+header .btn {
+  border: 1px solid var(--primary);
+  color: var(--primary);
+  padding: 10px 25px;
+  border-radius: 25px;
+}
+
+@media (max-width: 1200px) {
+  header {
+    width: 100%;
+  }
+  .logo img {
+    display: none;
+  }
+  header .searchfeild {
+    width: 30%;
+  }
+  .nav a:nth-child(1) {
+    display: none;
+  }
+}
+@media (max-width: 1024px) {
+  .nav a:nth-child(1) {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .nav a:nth-child(3) {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .nav a:nth-child(4) {
+    display: none;
+  }
+}
+@media (max-width: 468px) {
+  .btn {
+    display: none;
+  }
+  .loginLink {
+    display: none;
+  }
+  header .searchfeild {
+    width: 90%;
+  }
+  header{
+    padding: 15px 3%;
+    gap: 0;
+  }
+}

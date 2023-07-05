@@ -1,0 +1,43 @@
+/* font family  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+
+
+/* Color Plette */
+:root {
+  --primary: #fff;
+  --secondry: #323232;
+  --light-black: rgb(117, 117, 117);;
+  --bg: rgb(116, 31, 162);
+  --bg-color: #F7F7F7;
+  --border:thin solid rgb(224, 224, 224);;
+  --box-shadow: rgba(0, 0, 0, 0.05) 0px 3px 8px;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  color: var(--black);
+  background-color: var(--bg-color);
+  overflow-x: hidden;
+}
+a{
+  text-decoration: none;
+}
+button{
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+}
+input{
+  outline: none;
+  border: none;
+  background-color: transparent;
+}

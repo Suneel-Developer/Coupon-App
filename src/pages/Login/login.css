@@ -1,0 +1,122 @@
+.login_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+}
+
+.Login {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.heading {
+  text-align: center;
+}
+.heading h1 {
+  font-size: 30px;
+  font-weight: 600;
+}
+.heading p {
+  display: flex;
+  font-size: 15px;
+  font-weight: 400;
+}
+.form {
+  background-color: var(--primary);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 2rem;
+  text-align: center;
+}
+.form label {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--secondary);
+  margin-bottom: 7px;
+  text-align: left;
+}
+.form input {
+  border: var(--border);
+  padding: 12px;
+  margin-bottom: 1rem;
+  font-size: 15px;
+  font-weight: 400;
+}
+.form .btn {
+  width: 100%;
+  background-color: rgb(224, 224, 224);
+  border-radius: 25px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 10px;
+  color: var(--light-black);
+  margin: 1rem 0;
+}
+.form a {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--secondary);
+  margin-bottom: 1rem;
+}
+.form span {
+  background-color: var(--primary);
+  width: 30px;
+  height: 30px;
+  font-size: 13px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: -1rem;
+  z-index: 1;
+}
+.form hr {
+  color: var(--light-black);
+  margin-bottom: 1rem;
+}
+.form .btn_feild {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: var(--border);
+  border-radius: 25px;
+  padding: 10px;
+  gap: 1rem;
+}
+.form .btn_feild .icon {
+  font-size: 20px;
+}
+.form .btn_feild button {
+  width: 90%;
+  font-size: 15px;
+  font-weight: 400;
+}
+.privacy_div {
+  margin: 1rem 0;
+  padding: 2px 20px;
+  font-weight: 500;
+}
+.privacy_div p {
+  font-size: 12px;
+}
+.privacy_div a {
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 968px){
+    .Login{
+        width: 100%;
+        background-color: var(--primary);
+    }
+}

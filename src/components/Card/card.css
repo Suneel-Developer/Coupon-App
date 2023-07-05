@@ -1,0 +1,33 @@
+.card{
+    background-color: var(--primary);
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: var(--box-shadow);
+}
+.card .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(34, 34, 34);
+    border-bottom: 1px solid rgba(112, 112, 112, 0.17);
+    border-radius: 5px 5px 0px 0px;
+
+}
+.card .image img{
+    width: 130px;
+}
+.card .card_details{
+    padding: 15px;
+}
+.card .card_details span{
+    font-weight: 600;
+    font-size: 15px;
+}
+.card .card_details h2{
+    font-size: 15px;
+    font-weight: 400;
+    margin: 1rem 0;
+}
+.card .card_details p{
+    font-size: 13px;
+}

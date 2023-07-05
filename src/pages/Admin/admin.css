@@ -1,0 +1,59 @@
+.admin_container{
+    padding: 1% 7%;
+    margin-top: 3rem;
+}
+.addbutton{
+    background-color: var(--bg);
+    padding: 10px;
+    border-radius: 4px;
+    color: var(--primary);
+}
+.addbutton:hover{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0.16)), rgb(116, 31, 162);
+    border: transparent;
+}
+.tabelContainer{
+    margin-top: 2rem;
+    overflow-x: auto;
+}
+.tabelContainer table{
+    width: 1350px;
+}
+.tabelContainer table, tr, th, td{
+    border: var(--border);
+    border-collapse: collapse;
+    text-align: left;
+    padding: 8px;
+}
+.tabelContainer table thead{
+    background-color: var(--bg);
+    color: var(--primary);
+}
+.tabelContainer table thead tr th:nth-child(4){
+    width: 350px;
+}
+.tabelContainer table thead th{
+    font-size: 17px;
+    font-weight: 400;
+}
+.tabelContainer table tbody td{
+    font-size: 15px;
+    color: var(--secondary);
+}
+.tabelContainer table tbody tr td:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.tabelContainer table tbody tr td:nth-child(1) button{
+    background-color: var(--bg);
+    padding: 2px;
+    color: var(--primary);
+}
+.tabelContainer table tbody tr td:nth-child(1) button:nth-child(2){
+    background-color: red;
+}
+.tabelContainer table tbody tr td:nth-child(1) button:hover{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0.16)), rgb(116, 31, 162);
+    border: transparent;
+}
